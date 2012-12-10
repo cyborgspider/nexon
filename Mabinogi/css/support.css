@@ -1,0 +1,54 @@
+#page-header{background:url(../img/bg/header-support.jpg) no-repeat;}
+#m-page-wrap {background:url(../img/bg/subpage-bg-support.jpg) no-repeat #403d67;}
+
+/*Client Driver Page*/
+#client-driver-page{padding:12px 0 0}
+#client-driver-page h2{font:normal 22px 'Lucida Grande','Lucida Sans Unicode', Tahoma, sans-serif;color:#143e6a;margin-bottom:5px}
+#client-driver-page .quote{font:italic 17px Georgia, "Times New Roman", Times, serif;color:#71b53a;text-align:center;}
+#client-driver-page .notice{width:562px;background:#e9e9e9;color:#666;padding:12px 17px;margin:auto;clear:both;}
+	.notice a{color:#0693ec;text-decoration:none}
+	.notice a:hover{background:url(../img/misc/pager-link-underline.png) 0 100% repeat-x;}
+#client-driver-page .divider{width:595px;height:16px;margin:25px auto;clear:both;background:url(../img/support/or.png) no-repeat;text-indent:-9999px}
+#system-requirements{margin:10px auto;}
+#other-regions{text-align:center;margin:20px 0 25px}
+	#other-regions a{color:#0693ec;text-decoration:none}	
+		#other-regions a:hover{background:url(../img/misc/pager-link-underline.png) 0 100% repeat-x;}
+
+
+/*Buttons on Client Driver Page*/
+#dl-exe{background:url(../img/support/btn-downloader.png) no-repeat;width:602px;height:113px;text-indent:-9999px;display:block;margin:5px auto}
+#dl-nomusic{background:url(../img/support/btn-client-no-music.png) no-repeat;width:346px;height:96px;text-indent:-9999px;float:left;margin:0 8px 8px 30px;}
+#dl-music{background:url(../img/support/btn-music-files.png) no-repeat;width:244px;height:96px;text-indent:-9999px;float:left;margin:0 0 8px 0;}
+#dl-manual{background:url(../img/support/btn-manual.png) no-repeat;width:244px;height:96px;text-indent:-9999px;float:right;margin-left:20px}
+#dl-exe:hover,#dl-nomusic:hover,#dl-music:hover,#dl-manual:hover{background-position:0 100%;}
+#btn-directx{background:url(../img/support/btn-drivers.png) 0 100% no-repeat;float:left;width:207px;height:70px;text-indent:-9999px;margin:10px 18px 0 0;}
+#btn-nvidia{background:url(../img/support/btn-drivers.png) 0 50% no-repeat;float:left;width:207px;height:70px;text-indent:-9999px;margin:10px 18px 0 0}
+#btn-ati{background:url(../img/support/btn-drivers.png) 0 0 no-repeat;float:left;width:207px;height:70px;text-indent:-9999px;margin:10px 0 0}
+
+/*FAQ Page*/
+#faq-search{width:256px;height:28px;border:solid 1px #d2d1d1;float:right;margin-bottom:14px}
+#faq-search input[type="text"]{width:215px;height:28px;float:left;background:#e0e0e0;padding-left:5px;border:none;}
+#faq-search input[type="submit"]{width:36px;height:28px;float:left;background:url(../img/btn/item-search.png) no-repeat;text-indent:-9999px;cursor:pointer;border:none}
+#faq-search+p{clear:both;margin-bottom:20px}
+
+#faq-select{height:38px;border:solid 1px #dfdfdf;padding:20px 0 0 18px;
+	/*CSS Gradient time! http://www.colorzilla.com/gradient-editor/ */
+	background: #f8f8f8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f8f8f8 0%, #e7e7e7 96%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(96%,#e7e7e7)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f8f8f8 0%,#e7e7e7 96%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f8f8f8 0%,#e7e7e7 96%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f8f8f8 0%,#e7e7e7 96%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f8f8f8 0%,#e7e7e7 96%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
+}
+#faq-select p{color:#143e6a;font-weight:bold;float:left;margin-right:10px}
+#faq-select select{width:235px;height:30px;border:solid 1px #dfdfdf;font-size:14px;;ine-height:30px;float:left;margin-top:-5px}
+
+#faq-list{clear:both;margin-bottom:30px}
+#faq-list li{padding:11px 18px 4px 15px;border-bottom:dotted 1px #8c8c8c;}
+#faq-list li h2{font:normal 14px 'Lucida Grande','Lucida Sans Unicode', Tahoma, sans-serif;color:#666;cursor:pointer}
+#faq-list li p{display:none;color:#143e6a;margin-bottom:15px;}
+#faq-list li:hover,#faq-list li.active{background:#e9e9e9;}
+#faq-list li:hover h2{color:#143e6a;}
+#faq-list li.active h2{color:#143e6a;background:url(../img/support/faq-toggle.png) 100% 0 no-repeat;}

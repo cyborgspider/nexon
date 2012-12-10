@@ -1,0 +1,22 @@
+/*NEWS HEADER*/
+#page-header {
+	background:url(../img/bg/header-news.jpg) no-repeat;
+}
+#m-page-wrap {
+	background:url(../img/bg/subpage-bg-news.jpg) no-repeat #2e2e2e;
+}
+
+/*DETAILS PAGES*/
+#m-page{padding-top:22px}
+#m-page h2 {
+	color: #143e6a;
+	font-weight: normal;
+	font-size: 22px;
+	margin:10px 0 20px;
+}
+#m-page p{
+	margin-bottom:20px;	
+}
+#m-page p.mb30{
+	margin-bottom:30px;	
+}

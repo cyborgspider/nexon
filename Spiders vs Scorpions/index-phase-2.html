@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Combat Arms:Spiders vs Scorpions</title>
+    <link rel="shortcut icon" href="http://nxcache.nexon.net/nexon.ico" />
+    <link rel="stylesheet" href="http://nxcache.nexon.net/all/css/all.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<div id="wrap-main">
+
+    <div id="content-top">
+        <div id="content-wrap">
+        <div id="share">
+            <a name="fb_share"></a> 
+            <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" 
+                    type="text/javascript">
+            </script>
+        </div>            
+            <div id="btn-spiders">
+                <div class="off"></div>
+                <div class="btn-lm"><!-- Learn More--></div>
+                <div class="on"></div>
+                <div class="btn-links">
+                    <a href="svs/info-spiders.html">Spiders?</a>
+                    <a href="#">Rankings</a>
+                    <a href="#">Community</a>
+                </div>
+            </div>
+
+            <div id="middle-content">
+                <div id="logo-ca">Combat Arms</div>
+                <h1 id="logo-svs">Spiders vs Scorpions: Win the Fight!</h1>
+                <h2>Get great prizes with final win and each rounds!</h2>
+                <div id="mainpage-scoreboard">
+                    <div id="score-spiders">
+                        <div class="spider-stars two"></div>
+                        <span class="bigscore two">2</span><!-- use one, two, three, or four to display right number-->
+                    </div>
+                    <div id="score-scorpions">
+                        <div class="scorpion-stars one"></div>
+                        <span class="bigscore one">1</span><!-- use one, two, three, or four to display right number-->
+                    </div> 
+                    <div id="score-meter">
+                        <h3 class="spiders">Round 4 Score: <span>Spiders</span> are leading <span>2</span>:<span>1</span></h3>
+                        <div class="spider-wins three"></div>
+                        <div class="scorpion-wins six"></div>
+                    </div>
+                    <a href="#">View Scoreboard</a>
+                </div>
+            </div>
+            
+            <div id="btn-scorpions">
+                <div class="off"></div>
+                <div class="btn-lm"><!-- Learn More--></div>
+                <div class="on"></div>
+                <div class="btn-links">
+                    <a href="svs/info-scorpions.html">Scorpions?</a>
+                    <a href="#">Rankings</a>
+                    <a href="#">Community</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <div id="section-spiders"></div>
+    <div id="section-scorpions"></div>
+    
+    <div id="content-bot">
+        <div id="video" data-video-id="8of00uEVRRA">
+            <h2>Episode 1: The War Begins</h2>
+            <p>The newest map in the Combat Arms lineup, Rural Estate, features fierce fighting in and around a palatial country mansion. Learning the lay of the land is always a challenge, and who better to help soldiers form their strategies than SuperPianist, the creator of the map himself?</p>
+        </div>
+        <div id="bot-wrap">
+            <div id="m-rankings">
+                <h2>Rankings</h2>
+                <ul class="spiders">
+                    <li><strong>1</strong>&nbsp;&nbsp;NOTRIOUS-BB</li>
+                    <li>2&nbsp;&nbsp;-TT-DigiTalMind</li>
+                    <li>3&nbsp;&nbsp;Ricosnake</li>
+                    <li>4&nbsp;&nbsp;IDonTGiveAF**<li>
+                    <li>5&nbsp;&nbsp;blah</li>
+                    <li class="view-more"><a href="#">view more</a></li>
+                </ul>
+                <ul class="scorpions">
+                    <li><strong>1</strong>&nbsp;&nbsp;NOTRIOUS-BB</li>
+                    <li>2&nbsp;&nbsp;-TT-DigiTalMind</li>
+                    <li>3&nbsp;&nbsp;Ricosnake</li>
+                    <li>4&nbsp;&nbsp;IDonTGiveAF**<li>
+                    <li>5&nbsp;&nbsp;blah</li>
+                    <li class="view-more"><a href="#">view more</a></li>                
+                </ul>            
+            </div>
+            <div id="m-tracker">
+                <h2>Forum Tracker</h2>
+                <ul>
+                    <li>
+                        <div><a href="#">Hello there blah blah blah here's a long post</a></div>
+                        <span>7/14</span>
+                    </li>
+                    <li>
+                        <div><a href="#">Hello there blah blah blah</a></div>
+                        <span>7/14</span>
+                    </li>
+                    <li>
+                        <div><a href="#">Hello there blah blah blah</a></div>
+                        <span>7/14</span>
+                    </li>
+                    <li>
+                        <div><a href="#">Hello there blah blah blah</a></div>
+                        <span>7/14</span>
+                    </li>
+                    <li>
+                        <div><a href="#">Hello there blah blah blah</a></div>
+                        <span>7/14</span>
+                    </li>
+                       
+                </ul>        
+            </div> 
+        </div>
+        <div id="footer">
+            <a href="http://combatarms.nexon.net">Go to Official Site</a>|
+            <a href="svs/faq.html" id="faq">FAQ</a>|
+            <a href="svs/rules.html" id="rules">Rules &amp; Disclaimers</a>
+        </div>
+    </div>
+</div> 
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://nxcache.nexon.net/all/js/all.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        $('#rewards img').rewardCycler();
+        $('#video').videoPopup();
+        $('#faq, #rules').popupWindow();
+        $('#btn-scorpions').fadeTransition();
+        $('#btn-choose-side').click(function(){
+            handleEventLogic();
+        });
+        function handleEventLogic(){
+            nexon.gnt.popupLogin();
+        }
+        $('body').checkResolution();
+    });
+    </script>
+</body>
+</html>

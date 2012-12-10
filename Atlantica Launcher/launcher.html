@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Atlantica Launcher</title>
+<link rel="shortcut icon" href="http://nxcache.nexon.net/nexon.ico" />
+<link href="css/launcher.css" rel="stylesheet" />
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.5.2.min.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+$(function(){
+	//load the Hero Banners	
+	mallBanner(); 	
+	//Make every link open in a blank window
+	$('a').attr('target','_blank');
+	//Make the H1 (atlantica logo) clickable
+	$('h1').click(function(){
+			window.open('http://atlantica.nexon.net');
+			return false;	
+	});
+});
+</script>
+</head>
+
+<body>
+<div id="wrap">
+<h1><span>Atlantica</span></h1>
+<div id="news">
+	<ul>
+    	<li>
+        	<a href="#">Lorem ipsum dolor sitamet consectetur adios motherlover</a>
+            <span class="date">Oct. 24, 2011</span>
+        </li>
+    	<li>
+        	<a href="#">When you try your best and you don't succeed</a>
+            <span class="date">Oct. 24, 2011</span>
+        </li>      
+    	<li>
+        	<a href="#">When you get what you want but not what you need</a>
+            <span class="date">Oct. 24, 2011</span>
+        </li>
+    	<li>
+        	<a href="#">When you're so tired you can't breathe</a>
+            <span class="date">Oct. 24, 2011</span>
+        </li>  
+    	<li>
+        	<a href="#">Stuck in reverse</a>
+            <span class="date">Oct. 24, 2011</span>
+        </li>
+    	<li>
+        	<a href="#">When you love someone but it goes to waste, could it be worse?</a>
+            <span class="date">Oct. 24, 2011</span>
+        </li>  
+    	<li>
+        	<a href="#">I will try to fix you</a>
+            <span class="date">Oct. 24, 2011</span>
+        </li>                          
+    </ul>
+    <a class="more" href="#">more</a>
+</div>
+<div id="items">
+        <ul id="item-ban">
+          <li> <a href=""> <img src="http://nxcache.nexon.net/spotlight/241/00D5D-2e006d7e-99a2-49c8-a475-7c9628be6aaa.jpg" alt="" /> </a> </li>
+          <li> <a href=""> <img src="http://nxcache.nexon.net/spotlight/241/00Ctf-4b3d0817-d07e-4f17-8590-0a04ab142519.jpg" alt="" /> </a> </li>
+          <li> <a href=""> <img src="http://nxcache.nexon.net/spotlight/241/00Bkf-00e2fa8a-09bf-4de0-b74c-e0994241b7c0.jpg" alt="" /> </a> </li>
+          <li> <a href=""> <img src="http://nxcache.nexon.net/spotlight/241/00Bke-7adfdab2-cc51-4100-b794-55f98bb14544.jpg" alt="" /> </a> </li>
+
+        </ul>
+        <ul id="item-controls">
+        	<span class="left"></span>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>  
+            <span class="right"></span>                                            
+        </ul>
+        <div id="version">
+        	<p>Latest version: [30424]</p>
+            <p>Current version: [30424]</p>
+        </div>
+</div>
+</div><!--end wrap-->
+</body>
+</html>

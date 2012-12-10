@@ -1,0 +1,9 @@
+.fan_box{padding-top:48px;padding-left:10px;}
+.fan_box .full_widget .connect_top {background:none;}
+.fan_box .name_block{display:none}
+.fan_box .full_widget {background:none;border:none;}
+.fan_box .connections {border:none;padding:0 0 4px 14px}
+.fan_box .profileimage {margin:0 10px 4px 0;padding:0;border:solid 1px #000}
+img.img {border:1px solid #03a1d5}
+.connect_widget_connected_text, .connections, .fan_box .connections_grid .grid_item .name {color:#333;}
+a { color:#333; }

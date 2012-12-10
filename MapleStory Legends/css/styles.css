@@ -1,0 +1,70 @@
+/*resets*/
+*{margin:0;padding:0;border:none}
+a{outline:none}
+ul,li{list-style:none}
+.mb40{margin-bottom:40px !important}
+.mb30{margin-bottom:28px !important}
+.nm{margin-right:0 !important}
+.cl{clear:both !important}
+
+/*global elements*/
+html{}
+body{font:13px/18px 'Lucida Grande','Lucida Sans Unicode',Tahoma,sans-serif;color:#0f434c}
+h2{background:url(../img/bullet.png) no-repeat 0 9px;padding-left:9px;font-size:13px;color:#0f434c}
+p.caption{font-weight:bold;color:#02161e;clear:both}
+#wrap{width:1020px;margin:0 auto;position:relative;padding:238px 0 0}
+#sns{position:absolute;top:22px;right:0;background:url(../img/bg-sns.png) no-repeat;width:195px;height:26px;text-indent:-9999px}
+	#sns a{float:left;width:25px;height:26px;margin:0 6px 0 0}
+#nav{position:relative;margin:0 auto 29px;background:url(../img/nav.png) no-repeat;width:951px;height:100px}
+	#nav a{text-indent:-9999px;display:block;position:absolute}
+	#nav a.link-cannoneer{width:295px;height:60px;top:14px;left:50px}
+		#nav a.link-cannoneer:hover, #nav a.link-cannoneer.active{background:url(../img/nav-cannoneer.png) 0 0 no-repeat}
+	#nav a.link-mercedes{}
+	#nav a.link-demonslayer{}
+.two-col{float:left}
+.two-col li{float:left;width:410px;margin-right:19px}
+.screenshots{width:400px}
+.screenshots li{float:left;margin:0 15px 11px 0;width:192px}
+.screenshots li+li+li{margin-bottom:0}
+#btn-main{background:url(../img/btn-goto-main.png) no-repeat;width:297px;height:56px;text-indent:-9999px;margin:0 auto 30px;display:block;clear:both}
+	#btn-main:hover{background-position:0 100%}
+#copyright{width:416px;height:19px;background:url(../img/copyright.png) no-repeat;text-indent:-9999px;margin:0 auto 20px}
+
+/*main page*/
+body.home{background:url(../img/bg-home.jpg) no-repeat center 49px #fff;min-height:1230px}
+body.home h1{display:none}
+body.home #wrap{}
+body.home #nav{background:url(../img/home-nav.png) no-repeat;width:800px;height:111px;}
+body.home #nav a.link-cannoneer{width:244px;height:68px;top:15px;left:54px}
+	body.home #nav a.link-cannoneer:hover{background:url(../img/nav-cannoneer-home.png) 0 0 no-repeat}
+body.home .content{padding:0 0 0 190px;margin:0 0 80px}
+
+/*cannoneer page*/
+body.canon{background:url(../img/bg-cannoneer.jpg) no-repeat center 49px #fff}
+body.canon h1{width:428px;height:135px;position:absolute;text-indent:-9999px;top:20px;left:320px}
+	body.canon h1 a{width:100%;height:100%;display:block}
+body.canon #nav{margin-bottom:85px}
+body.canon .tab a{width:206px;height:50px;background:url(../img/btn-cannon-event.png) no-repeat;display:block;text-indent:-9999px;position:absolute;top:346px;left:300px}
+	body.canon .tab a:hover{background-position:0 100%;top:347px}
+body.canon .content{width:840px;margin:0 auto}
+body.canon p.mb40{width:470px}
+body.canon h2+p{padding-left:10px}
+body.canon #btn-main{margin-top:130px}
+
+/*cannoneer event 1 page*/
+body.event-1{background:url(../img/bg-event-1.jpg) no-repeat center 49px #fff}
+body.event-1 h1{width:428px;height:135px;position:absolute;text-indent:-9999px;top:20px;left:320px}
+	body.event-1 h1 a{width:100%;height:100%;display:block}
+body.event-1 #nav{margin-bottom:85px}
+body.event-1 .tab a{width:207px;height:50px;background:url(../img/btn-cannon-info.png) no-repeat;display:block;text-indent:-9999px;position:absolute;top:345px;left:78px}
+	body.event-1 .tab a:hover{background-position:0 100%}
+body.event-1 .content{width:860px;margin:0 auto}
+body.event-1 #event-header{margin-bottom:30px;width:864px;float:left;color:#286570}
+body.event-1 #event-header h3{font:55px Verdana;float:left}
+body.event-1 #event-header p{float:right}
+body.event-1 ol{padding:230px 0 0 52px;float:left;margin:0 0 120px;}
+body.event-1 ol li{list-style:decimal;width:225px;float:left;margin-right:50px;padding:5px 0 0}
+body.event-1 ol li+li{margin-right:44px}
+body.event-1 .winners{float:left;padding:0 0 0 20px;margin:0 0 58px;font-size:14px}
+body.event-1 .winners li{width:215px;float:left;padding:0 30px}
+#btn-facebook{width:298px;height:67px;background:url(../img/btn-goto-facebook.png) no-repeat;display:block;text-indent:-9999px;margin:0 auto 130px;clear:both}#btn-facebook:hover{background-position:0 100%}

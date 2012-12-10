@@ -1,0 +1,319 @@
+/*NEWS HEADER*/
+#page-header {
+	background:url(../img/bg/header-guide.jpg) no-repeat;
+}
+#m-page-wrap {
+	background:url(../img/bg/subpage-bg-guide.jpg) no-repeat #351b38;
+}
+#m-page{padding-top:30px;}
+
+
+/*GUIDE TABS*/
+#guide-tabs {
+	width:658px;
+	height:44px; 
+	border-bottom:solid 2px #dc9707;
+	clear: both;
+}
+
+#tab-basics {
+	background:url(../img/btn/tab-guide-beginners.png) no-repeat;
+	text-indent: -9999px;
+	float:left;
+	width:127px;
+	height:44px;
+	background-position:-145px 0px
+}
+#tab-basics.active {
+	width:145px;
+	height:44px;
+	background-position:0px 0px
+}
+
+#tab-controls {
+	background:url(../img/btn/tab-guide-beginners.png) no-repeat;
+	text-indent: -9999px;
+	float:left;
+	width:133px;
+	height:44px;
+	background-position:-169px -44px
+}
+#tab-controls.active {
+	width:169px;
+	height:44px;
+	background-position:0px -44px
+}
+
+#tab-installguide {
+	background:url(../img/btn/tab-guide-gettingstarted.png) no-repeat;
+	text-indent: -9999px;
+	float:left;
+	width:127px;
+	height:44px;
+	background-position:-145px 0px
+}
+
+#tab-installguide.active {
+	width:145px;
+	height:44px;
+	background-position:0px 0px
+}
+
+#tab-startgameguide {
+	background:url(../img/btn/tab-guide-gettingstarted.png) no-repeat;
+	text-indent: -9999px;
+	float:left;
+	width:149px;
+	height:44px;
+	background-position:-184px -44px
+}
+#tab-startgameguide.active {
+	width:184px;
+	height:44px;
+	background-position:0px -44px
+}
+
+#tab-all {
+	background:url(../img/btn/tab-guide-advanced.png) no-repeat;
+	text-indent: -9999px;
+	float:left;
+	width:107px;
+	height:44px;
+	background-position:-127px 0px
+}
+#tab-all.active {
+	width:127px;
+	height:44px;
+	background-position:0px 0px
+}
+
+#tab-general {
+	background:url(../img/btn/tab-guide-advanced.png) no-repeat;
+	text-indent: -9999px;
+	float:left;
+	width:107px;
+	height:44px;
+	background-position:-127px -44px
+}
+#tab-general.active {
+	width:127px;
+	height:44px;
+	background-position:0px -44px
+}
+
+#tab-skill {
+	background:url(../img/btn/tab-guide-advanced.png) no-repeat;
+	text-indent: -9999px;
+	float:left;
+	width:104px;
+	height:44px;
+	background-position:-127px -88px
+}
+#tab-skill.active {
+	width:127px;
+	height:44px;
+	background-position:0px -88px
+}
+
+#tab-quest {
+	background:url(../img/btn/tab-guide-advanced.png) no-repeat;
+	text-indent: -9999px;
+	float:left;
+	width:109px;
+	height:44px;
+	background-position:-127px -132px
+}
+#tab-quest.active {
+	width:127px;
+	height:44px;
+	background-position:0px -132px
+}
+
+#tab-system {
+	background:url(../img/btn/tab-guide-advanced.png) no-repeat;
+	text-indent: -9999px;
+	float:left;
+	width:99px;
+	height:44px;
+	background-position:-127px -176px
+}
+#tab-system.active {
+	width:127px;
+	height:44px;
+	background-position:0px -176px;
+	margin-right:-5px;
+	z-index:2;
+	position:relative;
+}
+
+#tab-story {
+	background:url(../img/btn/tab-guide-advanced.png) no-repeat;
+	text-indent: -9999px;
+	float:left;
+	width:109px;
+	height:44px;
+	background-position:-127px -220px
+}
+#tab-story.active {
+	width:127px;
+	height:44px;
+	background-position:0px -220px
+}
+
+
+/*LIST PAGE*/
+.list {
+	clear:both;
+	width: 620px;
+	margin-top: 16px;
+	margin-bottom:10px;
+	margin-left: 15px;
+}
+.list a{
+	color:#999;	text-decoration:none;
+}
+.list a:hover{
+	color:#143e6a	
+}
+.list thead {
+	text-align:center;
+	font-size:16px
+}
+.list thead tr {
+	line-height:38px;
+}
+.list tbody tr {
+	border-bottom:dotted 1px #e2e2e2;
+	height:36px;
+}
+.list tbody tr:hover a {
+	color:#143e6a;
+}
+.list td+td {
+	padding-left:4px;
+}
+.list td+td+td {
+	padding:0;
+	font-size:11px
+}
+.list a {
+	max-width:475px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	float:left
+}
+
+.news-detail-title {
+	font-size:16px;
+	color:#999999;
+	padding: 10px 0 10px 0
+}
+
+.instructions {
+	font-size:13px;
+	color:#4c4b4b;
+	padding-left: 5px;
+	text-align: left;
+	vertical-align: top
+}
+
+.guidelist {
+	clear:both;
+	width: 620px;
+	margin-top: 24px;
+	margin-bottom:10px;
+	margin-left: 15px;
+}
+.guidelist thead {
+	text-align:center;
+	font-size:16px
+}
+.guidelist thead tr {
+	line-height:38px;
+}
+.guidelist tbody tr {
+	height:36px;
+	padding-bottom:20px
+}
+
+.guidelist a {
+	max-width:475px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	float:left
+}
+
+.guidesteps {
+	padding-top: 27px
+}
+
+.guidesteps li {
+	clear: both;
+	margin-bottom: 20px;
+	float: left;
+	width: 656px;
+}
+
+.guidesteps img {
+	float: left;
+	margin-right: 16px
+}
+
+/*GUIDE TAGS*/
+.tag {
+width: 60px;
+height: 16px;
+line-height: 18px;
+background: #F0D625;
+color: #603201;
+text-transform: uppercase;
+text-align: center;
+font-size: 10px;
+display: block
+}
+
+
+/*BOTTOM PAGER ON DETAIL PAGE*/
+#detail-pager {
+	clear:both;
+}
+
+#detail-pager .pager-list{
+	font-size: 15px;
+	color: #54abf5;
+	margin-left: 275px;
+	float:left;
+	padding: 10px 0 0 0
+}
+
+#detail-pager .pager-list:hover{
+	background:url(../img/misc/pager-link-underline.png) 0 100% repeat-x;	
+}
+
+#detail-pager .pager-left{
+	background:url(../img/btn/detail-pager.png) no-repeat;
+	width:25px;
+	height:41px;
+	background-position:0px 0px;
+	text-indent: -9999px;
+	float:left;
+	}
+
+#detail-pager .pager-left:hover{
+	background-position:-25px 0px;
+}
+
+#detail-pager .pager-right{
+	background:url(../img/btn/detail-pager.png) no-repeat;
+	width:25px;
+	height:41px;
+	background-position:0px -41px;
+	text-indent: -9999px;
+	float:right
+}
+
+#detail-pager .pager-right:hover{
+	background-position:-25px -41px;	
+}

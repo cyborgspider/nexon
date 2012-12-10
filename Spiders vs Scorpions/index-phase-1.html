@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Combat Arms:Spiders vs Scorpions</title>
+    <link rel="shortcut icon" href="http://nxcache.nexon.net/nexon.ico" />
+    <link rel="stylesheet" href="http://nxcache.nexon.net/all/css/all.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<div id="wrap-main">
+
+    <div id="content-top">
+        <div id="content-wrap">
+            
+            <div id="btn-spiders">
+                <a href="svs/info-spiders.html" class="off">Spiders: View More</a>
+                <a href="svs/info-spiders.html" class="on">Spiders: View More</a>
+            </div>
+
+            <div id="middle-content">
+                <div id="logo-ca">Combat Arms</div>
+                <h1 id="logo-svs">Spiders vs Scorpions: Join the Fight!</h1>
+                <div id="rewards">
+                    <img src="http://nxcache.nexon.net/combatarms/svs/img/main/rewards-01.png" alt="" />
+                    <img src="http://nxcache.nexon.net/combatarms/svs/img/main/rewards-02.png" alt="" />
+                    <img src="http://nxcache.nexon.net/combatarms/svs/img/main/rewards-03.png" alt="" />
+                </div>
+                <a href="#" id="btn-choose-side">Choose A Side</a>
+            </div>
+            
+            <div id="btn-scorpions">
+                <a href="svs/info-scorpions.html" class="off">Scorpions: View More</a>
+                <a href="svs/info-scorpions.html" class="on">Scorpions: View More</a>
+            </div>
+
+        </div>
+    </div>
+    
+    <div id="section-spiders"></div>
+    <div id="section-scorpions"></div>
+    
+    <div id="content-bot">
+        <div id="video" data-video-id="8of00uEVRRA">
+            <h2>Episode 1: The War Begins</h2>
+            <p>The newest map in the Combat Arms lineup, Rural Estate, features fierce fighting in and around a palatial country mansion. Learning the lay of the land is always a challenge, and who better to help soldiers form their strategies than SuperPianist, the creator of the map himself?</p>
+        </div>
+        <div id="fanart">
+            <a href="http://www.facebook.com/combatarms" target="_blank">Create your own war poster Facebook Event</a>
+        </div>
+        <div id="footer">
+            <a href="http://combatarms.nexon.net">Go to Official Site</a>|
+            <a href="svs/faq.html" id="faq">FAQ</a>|
+            <a href="svs/rules.html" id="rules">Rules &amp; Disclaimers</a>
+        </div>
+    </div>
+</div> 
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://nxcache.nexon.net/all/js/all.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        $('#rewards img').rewardCycler();
+        $('#video').videoPopup();
+        $('#faq, #rules').popupWindow();
+        $('#btn-spiders, #btn-scorpions').fadeTransition();
+        $('#btn-choose-side').click(function(){
+            handleEventLogic();
+        });
+        function handleEventLogic(){
+            nexon.gnt.popupLogin();
+        }
+        $('body').checkResolution();
+    });
+    </script>
+</body>
+</html>

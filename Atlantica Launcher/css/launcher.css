@@ -1,0 +1,31 @@
+*{margin:0;padding:0;border:none;outline:none}
+ul{list-style:none}
+body{background:url(../img/launcher/background.jpg) no-repeat #000; color:#6c7f91; font:12px/18px 'Lucida Sans Unicode', 'Lucida Grande', Tahoma, sans-serif;}
+a{text-decoration:none;width::100%;height:100%;display:block}
+.dn{display:none }
+.cl{clear:both }
+
+#wrap{position:relative;width:777px;height:593px}
+h1{width:313px;height:72px;top:44px;left:11px;position:absolute;cursor:pointer}
+h1 span{display:none}
+
+#news{width:412px;position:absolute;left:28px;top:136px;padding-top:25px;background:url(../img/launcher/header-news.png) 0 0 no-repeat;}
+#news li{width:412px;height:29px;line-height:29px;background:url(../img/launcher/double-border.png) 0 100% repeat-x;}
+#news li a{font-weight:bold;color:#5673b4;float:left;max-width:330px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+	#news li a:hover{color:#b2ceee}
+#news span.date{float:right;font-size:11px}
+#news .more{background:url(../img/launcher/more-arrow.png) 100% 6px no-repeat;padding-right:7px;margin:3px 0 0;color:#5673b4;float:right}
+
+#items {position:absolute;width:266px;height:245px;right:27px;top:136px;padding-top:23px;background:url(../img/launcher/header-items.png) 0 0 no-repeat}
+	#item-ban li {position:absolute;width:266px;height:151px;z-index:3;display:none}
+	#item-ban img{border:solid 1px #666}
+	#items-ban li.active {display:block;z-index:4}
+#item-controls {position:absolute;top:190px;left:100px;width:100%}
+	#item-controls li {background:#6c7f91;height:9px;width:9px;float:left;cursor:pointer;margin-right:10px;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px}
+		#item-controls li.active, #item-controls li:hover {background:#b2ceee}
+#version{font:Tahoma;position:absolute;bottom:19px;line-height:14px}
+
+#item-arrows{width:100px;height:13px;position:absolute;top:188px;left:80px}
+#item-controls span{width:7px;height:13px;background:url(../img/launcher/item-arrow.png) 0 0 no-repeat;float:left;cursor:pointer;margin-top:-2px}
+#item-controls span.left{margin-left:-27px;}
+#item-controls span.right{background-position:100% 0;margin-left:10px;}

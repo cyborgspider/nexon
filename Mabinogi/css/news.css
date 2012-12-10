@@ -1,0 +1,231 @@
+/*NEWS HEADER*/
+#page-header {
+	background:url(../img/bg/header-news.jpg) no-repeat;
+}
+#m-page-wrap {
+	background:url(../img/bg/subpage-bg-news.jpg) no-repeat #2e2e2e;
+}
+/*NEWS SEARCH*/
+#m-news-search{width:256px;height:28px;border:solid 1px #d2d1d1;float:right;margin-bottom:14px}
+#m-news-search input[type="text"]{width:215px;height:28px;float:left;background:#e0e0e0;padding-left:5px;border:none;}
+#m-news-search input[type="submit"]{width:36px;height:28px;float:left;background:url(../img/btn/item-search.png) no-repeat;text-indent:-9999px;cursor:pointer;border:none}
+
+/*NEWS TABS*/
+#news-tabs {
+	width:656px;
+	height:44px; 
+	border-bottom:solid 2px #dc9707;
+	clear: both;
+}
+
+#tab-all {
+	background:url(../img/btn/tab-news.png) no-repeat;
+	text-indent: -9999px;
+	float:left;
+	width:109px;
+	height:44px;
+	background-position:-140px 0px
+}
+#tab-all.active {
+	width:140px;
+	height:44px;
+	background-position:0px 0px
+}
+
+#tab-announcements {
+	background:url(../img/btn/tab-news.png) no-repeat;
+	text-indent: -9999px;
+	float:left;
+	width:139px;
+	height:44px;
+	background-position:-172px -44px
+}
+#tab-announcements.active {
+	width:172px;
+	height:44px;
+	background-position:0px -44px
+}
+
+#tab-events {
+	background:url(../img/btn/tab-news.png) no-repeat;
+	text-indent: -9999px;
+	float:left;
+	width:108px;
+	height:44px;
+	background-position:-132px -88px
+}
+#tab-events.active {
+	width:132px;
+	height:44px;
+	background-position:0px -88px
+}
+
+#tab-maintenances {
+	background:url(../img/btn/tab-news.png) no-repeat;
+	text-indent: -9999px;
+	float:left;
+	width:148px;
+	height:44px;
+	background-position:-172px -132px
+}
+#tab-maintenances.active {
+	width:172px;
+	height:44px;
+	background-position:0px -132px
+}
+
+/*LIST PAGE*/
+.list {
+	clear:both;
+	width: 620px;
+	margin-top: 16px;
+	margin-bottom:10px;
+	margin-left: 15px;
+}
+.list thead {
+	text-align:center;
+	font-size:16px
+}
+.list thead tr {
+	line-height:38px;
+}
+.list tbody tr {
+	border-bottom:dotted 1px #e2e2e2;
+	height:36px;
+}
+.list tbody tr:hover a {
+	color:#143e6a;
+}
+.list td+td {
+	padding-left:4px;
+}
+.list td+td+td {
+	padding:0;
+	font-size:11px
+}
+.list a {
+	max-width:475px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	float:left;
+	color:#999;
+	text-decoration:none;
+	
+}
+.list a:hover{
+	color:#143e6a;
+}
+
+.news-detail-title {
+	font-size:16px;
+	color:#999999;
+	padding: 10px 0 10px 0
+}
+
+.date {
+	font-size:11px;
+	color:#999999;
+	/*padding-right: 5px;*/
+	text-align: center
+}
+
+/*DETAILS PAGES*/
+#news-content {
+	float:left;
+	/*clear:both;*/
+	width:640px;
+	padding: 25px 0 25px 18px;
+	border-bottom: dotted 1px #8c8c8c;
+	margin-bottom: 24px	
+}
+
+#news-content h2 {
+	color: #143e6a;
+	font-weight: normal;
+	font-size: 22px;
+	margin-bottom:10px;
+}
+
+#news-content .tag {
+	float: left;
+	margin-right: 9px;
+	margin-bottom: 20px;
+}
+
+#news-content .date {
+	text-align: left;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#news-content img {
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 20px;
+}
+#news-content h3{
+	margin-bottom:20px;	
+	font-size:17px;
+}
+#news-content p{
+	margin-bottom:20px;	
+}
+
+
+/*NEWS TAGS*/
+.tag {
+width: 60px;
+height: 16px;
+line-height: 18px;
+background: #F0D625;
+color: #603201;
+text-transform: uppercase;
+text-align: center;
+font-size: 10px;
+display: block
+}
+
+
+
+/*BOTTOM PAGER ON DETAIL PAGE*/
+#detail-pager {clear:both;}
+#detail-pager a{text-decoration:none}
+#detail-pager .pager-list{
+	font-size: 15px;
+	color: #54abf5;
+	margin-left: 275px;
+	float:left;
+	padding: 10px 0 0 0
+}
+
+#detail-pager .pager-list:hover{
+	background:url(../img/misc/pager-link-underline.png) 0 100% repeat-x;	
+}
+
+#detail-pager .pager-left{
+	background:url(../img/btn/detail-pager.png) no-repeat;
+	width:25px;
+	height:41px;
+	background-position:0px 0px;
+	text-indent: -9999px;
+	float:left;
+	}
+
+#detail-pager .pager-left:hover{
+	background-position:-25px 0px;
+}
+
+#detail-pager .pager-right{
+	background:url(../img/btn/detail-pager.png) no-repeat;
+	width:25px;
+	height:41px;
+	background-position:0px -41px;
+	text-indent: -9999px;
+	float:right
+}
+
+#detail-pager .pager-right:hover{
+	background-position:-25px -41px;	
+}
